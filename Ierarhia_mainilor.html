@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    Hall of Fame
+</title>
+<link rel="stylesheet" href="Ierarhia_mainilorEdit.css">
+<script type="text/javascript"  src="Ierarhia_mainilorScript.js"></script>
+</head>    
+<body>
+   
+  <nav>
+            <ul >
+            <li><a href="Home.html">Home<img src="pictures/Menu/homelogo.jpg"></a></li>
+            <li><a href="Istoric.html">Istoric <img src="pictures/Menu/historylogo.jpg"></a></li>
+            <li><a href="Ierarhia_mainilor.html">Ierarhia mâinilor<img src="pictures/Menu/handslogo2.jpg"></a></li>
+            <li><a href="WSOP.html">WSOP <img src="pictures/Menu/wsoplogo.png"></a> </li>
+            <li><a href="HallofFame.html">Hall of Fame <img src="pictures/Menu/halloffamelogo.png"></a> </li>
+            </ul>
+  </nav> 
+   
+  
+  </body>
+  <div id="cards">
+  <p>În jocul de poker , jucătorii construiesc mâini de câte cinci cărți în conformitate cu reguli prestabilite ale jocului.
+  Jucătorul cu cel mai mare punctaj al mâinii este cel care câștigă runda.Pachetul conține 52 de cărți împarțite în 4 suite,
+  fiecare suită conținând 13 cărți.</p>
+  <h3>Mâinile la Poker în ordine descrescătoare</h3>
+  <p><strong>Chinta roială</strong>  <br/>A, K, Q, J, 10 ,toate din aceeași suită.</p>
+  <button onclick="myFunction1()" class="Button">Arată</button>
+  <img src="pictures/Ierarhia_mainilor/royalflush.png" id="Hand1">
+
+  <p><strong>Chinta de culoare</strong>  <br/>Este o mână care conține cinci cărți în ordine, toate din aceeași suită</p>
+  <button onclick="myFunction2()" class="Button">Arată</button>
+  <img src="pictures/Ierarhia_mainilor/straightflush.png" id="Hand2">
+
+  <p><strong>Patru de un fel</strong>  <br/>Este o mână de poker care conține toate cele patru cărțile de aceeași valoare, precum și orice altă carte (fără pereche). </p>
+  <button onclick="myFunction3()" class="Button">Arată</button>
+  <img src="pictures/Ierarhia_mainilor/fourofakind.png" id="Hand3">
+
+  <p><strong>Full House</strong>  <br/>O mână care conține trei cărți de o valoare și alte două cărți de o altă valoare.
+     Între două mâini de full house, mâna care conține cele trei cărți cu valoare mai mare câștigă.
+     Dacă două mâini au aceleași trei cărți, câștigă mâna cu perechea de două cărți mai mare.</p>
+    <button onclick="myFunction4()" class="Button">Arată</button>
+  <img src="pictures/Ierarhia_mainilor/fullhouse.png" id="Hand4">
+
+ <p><strong>Culoare</strong>  <br/>Este o mână de poker unde toate cele cinci cărți sunt din aceeași suită, dar nu în succesiune.
+    Cea mai mare carte din fiecare clasament este comparată pentru a determina câștigătorul.
+    Dacă cele două mâini de culoare conțin aceleași cinci rânduri de cărți, ele împart potul, iar felurile cărților nu sunt folosite pentru a le diferenția.</p>
+    <button onclick="myFunction5()" class="Button">Arată</button>
+    <img src="pictures/Ierarhia_mainilor/flush.png" id="Hand5">
+
+    <p><strong>Chinta</strong>  <br/>Este o  mână ce conține 5  cărți în ordine crescătoare dar din suite diferite.
+        Două mâini de chintă sunt clasificate prin compararea  celei mai mari cărți din fiecare mână. Două chinte cu aceeași carte mare sunt de valoare egală,
+         felurile cărților nefiind folosite pentru a le separa.Asul poate fi  jucat ca o carte mică (având o valoare de 1), dar nu poate fi jucat atât ca și 
+         carte mare, cât și carte mică în același timp. </p>
+  <button onclick="myFunction6()" class="Button">Arată</button>
+  <img src="pictures/Ierarhia_mainilor/straight.png" id="Hand6">
+
+    <p><strong>Trei de un fel</strong>  <br/>Această  mână conține trei  cărți de aceeasi valoare și două  cărți de ranguri diferite. </p>
+    <button onclick="myFunction7()" class="Button">Arată</button>
+    <img src="pictures/Ierarhia_mainilor/threeofakind.png" id="Hand7">
+
+    <p><strong>Doua perechi</strong>  <br/>O  mână  care conține două  cărți de aceeași valoare și alte două  cărți de altă valoare.
+        și o a treia carte de o a treia valoare. </p>
+  <button onclick="myFunction8()" class="Button">Arată</button>
+  <img src="pictures/Ierarhia_mainilor/twopair.png" id="Hand8">
+
+  <p><strong>O pereche</strong>  <br/>O  mână  care conține două  cărți de aceeași valoare și alte trei  cărți de valori diferite. </p>
+<button onclick="myFunction9()" class="Button">Arată</button>
+<img src="pictures/Ierarhia_mainilor/pair.png" id="Hand9">
+
+    <p><strong>Cea mai mare carte</strong> <br/>Are loc atunci când nu se realizeaza niciuna dintre combinatiile de mai sus.
+    Se ia în considerare cartea cu cea mai mare valoare dintre cele 5. </p>
+    <button onclick="myFunction10()" class="Button">Arată</button>
+    <img src="pictures/Ierarhia_mainilor/highcard.png" id="Hand10">
+
+</div>
+   
+
+  </html>
